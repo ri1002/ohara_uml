@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.1">
+  <diagram id="oC43ATKjCmysnjPLc61W" name="ページ1">
+    <mxGraphModel dx="531" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&lt;b&gt;ドメインモデル=名刺リストを、線で結んだもの&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="50" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-2" value="RoboDog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-3" value="RoboDog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;jumpSize=613;endSize=20;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXGpHMCbLqGJIaRaeuts-4" target="sXGpHMCbLqGJIaRaeuts-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-4" value="RoboDog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-12" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=20;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="sXGpHMCbLqGJIaRaeuts-5" target="sXGpHMCbLqGJIaRaeuts-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-5" value="RoboDog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-6" value="RoboDog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-7" value="RoboDog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-10" value="" style="endArrow=diamondThin;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.117;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;strokeWidth=1;endSize=20;" edge="1" parent="1" source="sXGpHMCbLqGJIaRaeuts-3" target="sXGpHMCbLqGJIaRaeuts-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="220" as="sourcePoint" />
+            <mxPoint x="340" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.567;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endSize=20;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="sXGpHMCbLqGJIaRaeuts-6" target="sXGpHMCbLqGJIaRaeuts-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sXGpHMCbLqGJIaRaeuts-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.842;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;endSize=20;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="sXGpHMCbLqGJIaRaeuts-7" target="sXGpHMCbLqGJIaRaeuts-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
