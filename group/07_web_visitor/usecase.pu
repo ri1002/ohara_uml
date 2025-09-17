@@ -1,0 +1,14 @@
+@startuml Web論文システムユースケース図
+left to right direction
+actor 訪問者 as U1
+
+rectangle 訪問者システム as WRS {
+  usecase 登録 as UC1
+  usecase "参照" as UC2
+  usecase "変更" as UC3
+}
+
+U1 --> UC1
+U1 --> UC2
+U1 --> UC3
+@enduml
