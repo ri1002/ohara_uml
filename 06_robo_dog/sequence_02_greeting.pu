@@ -9,7 +9,7 @@ boundary "RoboDog_menu.htm" as B1
 boundary "GreetWithTime.htm" as B2
 boundary 挨拶表示画面 as B3
 control "GreetWithTime.jsp" as C1
-control 挨拶取得 as C2
+control "GetMyGreeting.jsp" as C2
 entity "Robodog.java" as E
 
 A -> B1: 「時刻に応じた挨拶」を選択()
