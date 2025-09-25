@@ -9,25 +9,31 @@ def application(environ, start_response):
     method = environ["REQUEST_METHOD"]
     headers = [("Content-Type", "text/html; charset=utf-8")]
 
+    #/ならrobodog_menuを実行
     if path == "/":
         body = robodog_menu()
-
+    
+    #/nameならchange_my_name_dataを実行
     elif path == "/name":
         body = change_my_name_data(environ)
-
+    
+    #/greetingならgreet_with_timeを実行
     elif path == "/greeting":
         body = greet_with_time()
 
+    #それ以外なら404エラーを返す
     else:
         start_response("404 Not Found", headers)
         return [b"Not Found"]
 
+    #正常に処理が終わった場合は200を返す
     start_response("200 OK", headers)
     return [body.encode("utf-8")]
 
-
+#最初に実行される部分
 if __name__ == "__main__":
     port = 8000
+    #↓applicationオブジェクトを実行するサーバーを立てている
     with make_server("", port, application) as httpd:
         print(f"http://localhost:{port} でアクセスしてください")
         httpd.serve_forever()

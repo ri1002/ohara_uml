@@ -3,6 +3,7 @@ from utils import parse_post, render_template
 
 
 def change_my_name_data(environ):
+    #app_logicの関数(get_my_name)を使って名前を取得する
     name = get_my_name()
     method = environ["REQUEST_METHOD"]
     if method == "POST":
